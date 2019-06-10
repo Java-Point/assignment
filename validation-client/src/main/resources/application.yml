@@ -1,0 +1,7 @@
+server:
+  port: 8032
+spring:
+  application:
+    name: validation-client
+spring.jackson.serialization.WRITE_DATES_AS_TIMESTAMPS: true
+spring.jackson.time-zone: UTC
