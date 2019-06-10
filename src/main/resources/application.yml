@@ -1,0 +1,11 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: terminal-server
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+logging.level.com.netflix.eureka: OFF
+logging.level.com.netflix.eureka.discovery: OFF
